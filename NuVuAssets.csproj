@@ -330,6 +330,7 @@
     <Compile Include="Assets\NuvuAssets\Scripts\LoadWebCam.cs" />
     <Compile Include="Assets\NuvuAssets\Scripts\MoveObjectOnDrag.cs" />
     <Compile Include="Assets\NuvuAssets\Scripts\NotifyAnimatorOnHit.cs" />
+    <Compile Include="Assets\NuvuAssets\Scripts\NoVuforia.cs" />
     <Compile Include="Assets\NuvuAssets\Scripts\PlaceOnMap.cs" />
     <Compile Include="Assets\NuvuAssets\Scripts\PlayAudioOnHit.cs" />
     <Compile Include="Assets\NuvuAssets\Scripts\PlayAudioOnRelease.cs" />
