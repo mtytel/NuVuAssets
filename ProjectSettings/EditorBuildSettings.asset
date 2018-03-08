@@ -5,9 +5,12 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/NuvuAssets/Scenes/MapScene.unity
     guid: 590711fa48e7c4d87a3eb1c6190261d6
-  - enabled: 1
+  - enabled: 0
     path: Assets/NuvuAssets/Scenes/CubeInteractions.unity
     guid: f9ce6091904cc4ef584b313c1600fd58
+  - enabled: 1
+    path: Assets/NuvuAssets/Scenes/ImageTrackingExplodingCubes.unity
+    guid: a553044e19a7648858298163849565ff

@@ -16,6 +16,7 @@ public class NotifyAnimatorOnHit : HitTarget
     {
         numHits++;
         numHolding++;
+        animator.SetTrigger("Hit");
         animator.SetInteger("NumHits", numHits);
         animator.SetBool("Holding", true);
     }
@@ -23,6 +24,7 @@ public class NotifyAnimatorOnHit : HitTarget
     override public void Release(TouchHitInfo hitInfo)
     {
         numHolding--;
+        animator.SetTrigger("Release");
         animator.SetBool("Holding", numHolding != 0);
     }
 }

@@ -337,9 +337,12 @@
     <Compile Include="Assets\NuvuAssets\Scripts\ReadPhoneData.cs" />
     <Compile Include="Assets\NuvuAssets\Scripts\RotateObjectOnDrag.cs" />
     <Compile Include="Assets\NuvuAssets\Scripts\ScaleRotateOnPinch.cs" />
+    <Compile Include="Assets\NuvuAssets\Scripts\SetNavTargetOnHit.cs" />
     <Compile Include="Assets\NuvuAssets\Scripts\TouchToRaycast.cs" />
     <Compile Include="Assets\NuvuAssets\Scripts\TransportOnHit.cs" />
     <Compile Include="Assets\NuvuAssets\Scripts\TriggerToRaycast.cs" />
+    <Compile Include="Assets\StandardAssets\ThirdPersonCharacter\Scripts\AICharacterControl.cs" />
+    <Compile Include="Assets\StandardAssets\ThirdPersonCharacter\Scripts\ThirdPersonCharacter.cs" />
     <Compile Include="Assets\Vuforia\Scripts\DefaultInitializationErrorHandler.cs" />
     <Compile Include="Assets\Vuforia\Scripts\DefaultTrackableEventHandler.cs" />
   </ItemGroup>
@@ -351,6 +354,7 @@
     <None Include="Assets\Editor\Vuforia\VuforiaMars_ModelTarget\authoringinfo.xml" />
     <None Include="Assets\Editor\Vuforia\VuforiaMars_VuMark\authoringinfo.xml" />
     <None Include="Assets\NuvuAssets\Shaders\ShadowsOnly.shader" />
+    <None Include="Assets\StandardAssets\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
     <None Include="Assets\StreamingAssets\Vuforia\VuforiaMars_Images.xml" />
     <None Include="Assets\StreamingAssets\Vuforia\VuforiaMars_ModelTarget.xml" />
     <None Include="Assets\StreamingAssets\Vuforia\VuforiaMars_Object_OT.xml" />

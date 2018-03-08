@@ -6,6 +6,7 @@ public class TouchHitInfo {
     public HitTarget[] hitTargets;
     public Transform player;
     public Transform touchSource;
+    public Vector3 hitPoint;
     public Vector3 startDirection;
     public Vector3 lastDirection;
     public Vector3 curDirection;
@@ -53,6 +54,7 @@ public class TouchToRaycast : MonoBehaviour
                 info.hitTargets = targets;
                 info.player = playerTransform;
                 info.touchSource = cameraComponent.transform;
+                info.hitPoint = hit.point;
                 info.startDirection = ray.direction;
                 info.lastDirection = ray.direction;
                 info.curDirection = ray.direction;
