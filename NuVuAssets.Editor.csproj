@@ -333,6 +333,7 @@
     <None Include="Assets\Editor\Vuforia\TargetsetData\VuforiaMars_Object_info.xml" />
     <None Include="Assets\Editor\Vuforia\VuforiaMars_ModelTarget\authoringinfo.xml" />
     <None Include="Assets\Editor\Vuforia\VuforiaMars_VuMark\authoringinfo.xml" />
+    <None Include="Assets\NuvuAssets\Shaders\Eraser.shader" />
     <None Include="Assets\NuvuAssets\Shaders\Rim.shader" />
     <None Include="Assets\NuvuAssets\Shaders\ShadowsOnly.shader" />
     <None Include="Assets\NuvuAssets\Shaders\ToonShader.shader" />

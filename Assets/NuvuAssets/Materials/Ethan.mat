@@ -6,7 +6,7 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: EthanGrey
+  m_Name: Ethan
   m_Shader: {fileID: 4800000, guid: d9707b8757bb2448a8945cb6255a7a38, type: 3}
   m_ShaderKeywords: _EMISSION _LIGHTMAPPING_STATIC_LIGHTMAPS _NORMALMAP _UVPRIM_UV1
     _UVSEC_UV1
